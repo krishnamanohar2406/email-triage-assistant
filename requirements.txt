@@ -1,0 +1,18 @@
+# Email Triage Assistant - Python Dependencies
+
+# Core dependencies
+streamlit>=1.30.0
+requests>=2.31.0
+
+# LLM Providers
+google-generativeai>=0.3.0  # For Gemini (free tier available)
+openai>=1.0.0  # Optional: if using OpenAI instead
+
+# Gmail API (optional - for real email integration)
+# google-auth>=2.25.0
+# google-auth-oauthlib>=1.2.0
+# google-auth-httplib2>=0.2.0
+# google-api-python-client>=2.110.0
+
+# Utilities
+python-dotenv>=1.0.0  # For .env file support
